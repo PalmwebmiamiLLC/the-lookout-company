@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TheLookOutCompany - Digital Excellence</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="cursor"></div>
+  <div id="loader">
+    <div class="loader-content">
+      <svg class="loader-logo" width="100" height="100" viewBox="0 0 100 100">
+        <circle cx="50" cy="50" r="40" stroke="var(--primary-color)" stroke-width="4" fill="none" />
+        <path id="logo-path" d="M25,50 a25,25 0 1,1 50,0 a25,25 0 1,1 -50,0" stroke="var(--secondary-color)" stroke-width="4" fill="none" stroke-dasharray="157" stroke-dashoffset="157" />
+      </svg>
+      <div class="loader-text">THELOOKOUTCOMPANY</div>
+    </div>
+  </div>
+
+  <header>
+    <nav class="container">
+      <div class="logo">
+        <div class="logo-icon">
+          <div class="logo-circle"></div>
+          <div class="logo-dot"></div>
+        </div>
+        <span>THELOOKOUTCOMPANY</span>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="theme-toggle">
+        <i class="fas fa-moon"></i>
+      </div>
+      <div class="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content container">
+      <div class="hero-text">
+        <h1><span>Elevate</span> Your <span class="gradient-text">Digital</span><br>Presence</h1>
+        <p>We are a leading digital marketing agency specializing in creating innovative solutions that drive growth and enhance your business's online presence.</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn-primary">Get Started</a>
+          <a href="#services" class="btn-outline btn-with-icon"><i class="fas fa-play"></i> Our Services</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="floating-card card-1">
+          <div class="card-icon"><i class="fas fa-bullseye"></i></div>
+          <div class="card-text">Targeted Campaigns</div>
+        </div>
+        <div class="floating-card card-2">
+          <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+          <div class="card-text">Growth Strategies</div>
+        </div>
+        <img src="https://cdn.pixabay.com/photo/2022/06/18/01/57/header-7268975_1280.png" alt="Digital Marketing Concept">
+      </div>
+    </div>
+    <div class="scrolldown">
+      <div class="chevrons">
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+      </div>
+      <span>Scroll down</span>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="container">
+      <div class="section-heading">
+        <span class="subtitle">Who We Are</span>
+        <h2 class="section-title">About Us</h2>
+        <div class="heading-separator"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <h3 class="reveal-text">Transforming Businesses Through Digital Excellence</h3>
+          <p>At TheLookOutCompany, we're dedicated to delivering outstanding digital marketing solutions, tailored to meet the unique needs of your business. With over 5 years of experience, we've successfully helped hundreds of businesses achieve their online goals.</p>
+          <p>Whether you're looking to boost your online presence, enhance your brand identity, or increase conversion rates, our team of experts is here to help you achieve measurable results.</p>
+          <a href="#services" class="btn-secondary">Our Services</a>
+        </div>
+        <div class="about-image tilt-element">
+          <img src="https://cdn.pixabay.com/photo/2019/07/14/16/29/pen-4337524_1280.jpg" alt="Digital Marketing Strategy">
+        </div>
+      </div>
+      <div class="stats-container">
+        <div class="stat-item">
+          <div class="stat-circle">
+            <svg viewBox="0 0 100 100">
+              <circle class="stat-circle-bg" cx="50" cy="50" r="45"></circle>
+              <circle class="stat-circle-progress" cx="50" cy="50" r="45" data-percent="95"></circle>
+            </svg>
+            <div class="stat-number">500+</div>
+          </div>
+          <p>Projects Completed</p>
+        </div>
+        <div class="stat-item">
+          <div class="stat-circle">
+            <svg viewBox="0 0 100 100">
+              <circle class="stat-circle-bg" cx="50" cy="50" r="45"></circle>
+              <circle class="stat-circle-progress" cx="50" cy="50" r="45" data-percent="80"></circle>
+            </svg>
+            <div class="stat-number">300+</div>
+          </div>
+          <p>Satisfied Clients</p>
+        </div>
+        <div class="stat-item">
+          <div class="stat-circle">
+            <svg viewBox="0 0 100 100">
+              <circle class="stat-circle-bg" cx="50" cy="50" r="45"></circle>
+              <circle class="stat-circle-progress" cx="50" cy="50" r="45" data-percent="70"></circle>
+            </svg>
+            <div class="stat-number">5+</div>
+          </div>
+          <p>Years of Excellence</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-heading">
+        <span class="subtitle">What We Offer</span>
+        <h2 class="section-title">Our Services</h2>
+        <div class="heading-separator"></div>
+      </div>
+      <div class="services-tabs">
+        <div class="tabs-nav">
+          <button class="tab active" data-tab="web"><i class="fas fa-laptop-code"></i> Web Design</button>
+          <button class="tab" data-tab="seo"><i class="fas fa-chart-line"></i> SEO</button>
+          <button class="tab" data-tab="mobile"><i class="fas fa-mobile-alt"></i> Mobile Apps</button>
+        </div>
+        <div class="tabs-content">
+          <div class="tab-pane active" id="web">
+            <div class="service-card glass-card">
+              <div class="service-icon">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h3>Website Design</h3>
+              <p>Custom, responsive websites designed to capture your brand essence and drive conversions. We focus on user experience and modern aesthetics.</p>
+              <ul class="service-features">
+                <li>Responsive Design</li>
+                <li>SEO-Optimized Structure</li>
+                <li>Interactive Elements</li>
+                <li>Fast Load Times</li>
+                <li>Conversion-Focused Layouts</li>
+              </ul>
+              <a href="#contact" class="btn-outline">Learn More</a>
+            </div>
+          </div>
+          <div class="tab-pane" id="seo">
+            <div class="service-card glass-card">
+              <div class="service-icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <h3>SEO</h3>
+              <p>Comprehensive search engine optimization strategies to improve your visibility and drive organic traffic to your website.</p>
+              <ul class="service-features">
+                <li>Keyword Research</li>
+                <li>On-Page Optimization</li>
+                <li>Link Building</li>
+                <li>Technical SEO</li>
+                <li>Performance Analytics</li>
+              </ul>
+              <a href="#contact" class="btn-outline">Learn More</a>
+            </div>
+          </div>
+          <div class="tab-pane" id="mobile">
+            <div class="service-card glass-card">
+              <div class="service-icon">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <h3>Mobile Apps</h3>
+              <p>Intuitive and feature-rich mobile applications developed for both Android and iOS platforms to extend your digital reach.</p>
+              <ul class="service-features">
+                <li>Native & Cross-Platform Apps</li>
+                <li>User-Centered Design</li>
+                <li>Seamless Performance</li>
+                <li>Regular Updates</li>
+                <li>App Store Optimization</li>
+              </ul>
+              <a href="#contact" class="btn-outline">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="section-heading">
+        <span class="subtitle">Our Work</span>
+        <h2 class="section-title">Our Portfolio</h2>
+        <div class="heading-separator"></div>
+      </div>
+      <div class="portfolio-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Design</button>
+        <button class="filter-btn" data-filter="marketing">Marketing</button>
+        <button class="filter-btn" data-filter="app">App Development</button>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-item web">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="https://cdn.pixabay.com/photo/2016/12/19/08/39/mobile-phone-1917737_1280.jpg" alt="Digital Campaign">
+            </div>
+            <div class="portfolio-overlay">
+              <h3>Digital Campaign</h3>
+              <div class="portfolio-tags">
+                <span>Web Design</span>
+                <span>Branding</span>
+              </div>
+              <a href="#" class="portfolio-link">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item marketing">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="https://cdn.pixabay.com/photo/2015/06/01/09/00/adwords-793034_1280.jpg" alt="E-commerce Site">
+            </div>
+            <div class="portfolio-overlay">
+              <h3>E-commerce Site</h3>
+              <div class="portfolio-tags">
+                <span>Marketing</span>
+                <span>E-commerce</span>
+              </div>
+              <a href="#" class="portfolio-link">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item app">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="https://cdn.pixabay.com/photo/2015/05/28/14/38/ux-787980_1280.jpg" alt="Mobile App Design">
+            </div>
+            <div class="portfolio-overlay">
+              <h3>Mobile App Design</h3>
+              <div class="portfolio-tags">
+                <span>App Development</span>
+                <span>UI/UX</span>
+              </div>
+              <a href="#" class="portfolio-link">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item marketing">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="https://cdn.pixabay.com/photo/2022/04/01/08/42/portfolio-7104359_1280.png" alt="Brand Identity">
+            </div>
+            <div class="portfolio-overlay">
+              <h3>Brand Identity</h3>
+              <div class="portfolio-tags">
+                <span>Branding</span>
+                <span>Marketing</span>
+              </div>
+              <a href="#" class="portfolio-link">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item web">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="https://cdn.pixabay.com/photo/2017/04/03/15/52/mobile-phone-2198770_1280.png" alt="Corporate Website">
+            </div>
+            <div class="portfolio-overlay">
+              <h3>Corporate Website</h3>
+              <div class="portfolio-tags">
+                <span>Web Design</span>
+                <span>Corporate</span>
+              </div>
+              <a href="#" class="portfolio-link">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item app">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="https://cdn.pixabay.com/photo/2019/04/04/15/17/smartphone-4103051_1280.jpg" alt="AI Analytics App">
+            </div>
+            <div class="portfolio-overlay">
+              <h3>AI Analytics App</h3>
+              <div class="portfolio-tags">
+                <span>App Development</span>
+                <span>Analytics</span>
+              </div>
+              <a href="#" class="portfolio-link">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <div class="blob blob-3"></div>
+    <div class="container">
+      <div class="section-heading">
+        <span class="subtitle">Client Feedback</span>
+        <h2 class="section-title">What Our Clients Say</h2>
+        <div class="heading-separator"></div>
+      </div>
+      <div class="testimonial-slider">
+        <div class="testimonial-track">
+          <div class="testimonial-slide active">
+            <div class="testimonial-card glass-card">
+              <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+              <p>"TheLookOutCompany transformed our online presence completely! Their strategic approach to digital marketing significantly increased our traffic and conversions. Their team is big on communication and really listens to what we're trying to accomplish with our business."</p>
+              <div class="client-info">
+                <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Sarah Johnson">
+                <div>
+                  <h4>Sarah Johnson</h4>
+                  <p>CEO, Astral Designs</p>
+                </div>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="testimonial-card glass-card">
+              <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+              <p>"Working with TheLookOutCompany has been a game-changer for our business. Their SEO expertise helped us rank on the first page for all our target keywords. The results speak for themselves - our leads have more than doubled in just three months!"</p>
+              <div class="client-info">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="David Wilson">
+                <div>
+                  <h4>David Wilson</h4>
+                  <p>Marketing Director, TechSolutions</p>
+                </div>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="testimonial-card glass-card">
+              <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+              <p>"The mobile app developed by TheLookOutCompany exceeded all our expectations. Not only is the design stunning, but the user experience is flawless. Our customers love it, and we've seen a significant increase in engagement since launching."</p>
+              <div class="client-info">
+                <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Emma Rodriguez">
+                <div>
+                  <h4>Emma Rodriguez</h4>
+                  <p>Founder, Bloom Boutique</p>
+                </div>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-controls">
+          <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+          <div class="testimonial-indicators">
+            <div class="indicator active"></div>
+            <div class="indicator"></div>
+            <div class="indicator"></div>
+          </div>
+          <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <div class="container">
+      <div class="section-heading">
+        <span class="subtitle">Common Questions</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="heading-separator"></div>
+      </div>
+      <div class="faq-container">
+        <div class="faq-grid">
+          <div class="faq-item glass-card">
+            <div class="faq-question">
+              <h3>What services do you offer?</h3>
+              <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-answer">
+              <p>We offer a comprehensive range of digital marketing services including website design and development, SEO, social media marketing, content creation, PPC advertising, email marketing, and mobile app development.</p>
+            </div>
+          </div>
+          <div class="faq-item glass-card">
+            <div class="faq-question">
+              <h3>How do you measure the success of your campaigns?</h3>
+              <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-answer">
+              <p>We track key performance indicators (KPIs) specific to your business goals. This may include website traffic, conversion rates, engagement metrics, lead generation numbers, and ROI calculations.</p>
+            </div>
+          </div>
+          <div class="faq-item glass-card">
+            <div class="faq-question">
+              <h3>How long does it take to complete a project?</h3>
+              <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-answer">
+              <p>Project timelines vary depending on scope and complexity. A basic website might take 4-6 weeks, while more complex digital marketing campaigns or custom applications could take several months to implement fully.</p>
+            </div>
+          </div>
+          <div class="faq-item glass-card">
+            <div class="faq-question">
+              <h3>Do you work with small businesses?</h3>
+              <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-answer">
+              <p>Absolutely! We have tailored packages for businesses of all sizes, from startups to large enterprises. Our goal is to provide accessible digital marketing solutions that fit your budget and needs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <div class="newsletter-pattern"></div>
+    <div class="container">
+      <div class="newsletter-card glass-card">
+        <h2 class="section-title">Subscribe to Our Newsletter</h2>
+        <p>Stay updated with the latest digital marketing trends and news.</p>
+        <form class="newsletter-form">
+          <div class="form-group">
+            <input type="email" placeholder="Your Email Address" required>
+            <button type="submit" class="btn-primary">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="blob blob-4"></div>
+    <div class="container">
+      <div class="section-heading">
+        <span class="subtitle">Reach Out</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="heading-separator"></div>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info glass-card">
+          <h3 class="reveal-text">Let's Discuss Your Project</h3>
+          <p>Ready to take your digital presence to the next level? Contact us today and let's discuss how we can help you achieve your business goals.</p>
+          <ul class="contact-details">
+            <li>
+              <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <p>123 Digital Avenue, Marketing City, MC 12345</p>
+            </li>
+            <li>
+              <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+              <p>+1 (555) 123-4567</p>
+            </li>
+            <li>
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <p>info@thelookoutcompany.com</p>
+            </li>
+          </ul>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <form class="contact-form glass-card">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <div class="input-with-icon">
+                <i class="fas fa-user"></i>
+                <input type="text" id="name" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <div class="input-with-icon">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="email" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <div class="input-with-icon">
+              <i class="fas fa-info-circle"></i>
+              <input type="text" id="subject" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <div class="input-with-icon textarea-icon">
+              <i class="fas fa-comment-alt"></i>
+              <textarea id="message" rows="5" required></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="blog">
+    <div class="container">
+      <div class="section-heading">
+        <span class="subtitle">Latest News</span>
+        <h2 class="section-title">Latest Articles</h2>
+        <div class="heading-separator"></div>
+      </div>
+      <div class="blog-grid">
+        <div class="blog-card glass-card">
+          <div class="blog-image">
+            <img src="https://cdn.pixabay.com/photo/2015/01/09/02/45/laptop-593673_1280.jpg" alt="SEO Strategies">
+            <div class="blog-date">
+              <span class="day">15</span>
+              <span class="month">Jun</span>
+            </div>
+          </div>
+          <div class="blog-content">
+            <span class="blog-tag">SEO</span>
+            <h3>5 SEO Strategies That Actually Work in 2023</h3>
+            <p>Discover the five proven SEO techniques that continue to deliver results in today's competitive digital landscape.</p>
+            <a href="#" class="blog-link">Read More <span class="arrow"></span></a>
+          </div>
+        </div>
+        <div class="blog-card glass-card">
+          <div class="blog-image">
+            <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_1280.jpg" alt="Web Design Trends">
+            <div class="blog-date">
+              <span class="day">28</span>
+              <span class="month">May</span>
+            </div>
+          </div>
+          <div class="blog-content">
+            <span class="blog-tag">Design</span>
+            <h3>The Most Exciting Website Design Trends for 2023</h3>
+            <p>Explore the cutting-edge design trends that are shaping the digital landscape and helping brands stand out online.</p>
+            <a href="#" class="blog-link">Read More <span class="arrow"></span></a>
+          </div>
+        </div>
+        <div class="blog-card glass-card">
+          <div class="blog-image">
+            <img src="https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_1280.jpg" alt="Social Media Marketing">
+            <div class="blog-date">
+              <span class="day">10</span>
+              <span class="month">Apr</span>
+            </div>
+          </div>
+          <div class="blog-content">
+            <span class="blog-tag">Marketing</span>
+            <h3>Optimizing Social Media Marketing for Business Growth</h3>
+            <p>Learn how to leverage social media platforms effectively to drive engagement, build brand awareness, and increase conversions.</p>
+            <a href="#" class="blog-link">Read More <span class="arrow"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <div class="logo-icon">
+              <div class="logo-circle"></div>
+              <div class="logo-dot"></div>
+            </div>
+            <span>THELOOKOUTCOMPANY</span>
+            <p>Elevating digital experiences since 2018</p>
+          </div>
+          <div class="footer-links">
+            <h4>Sitemap</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-services">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Digital Marketing</a></li>
+              <li><a href="#">SEO</a></li>
+              <li><a href="#">Content Creation</a></li>
+              <li><a href="#">Mobile Apps</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4>Contact Info</h4>
+            <ul>
+              <li><i class="fas fa-map-marker-alt"></i> 123 Digital Avenue, MC 12345</li>
+              <li><i class="fas fa-phone-alt"></i> +1 (555) 123-4567</li>
+              <li><i class="fas fa-envelope"></i> info@thelookoutcompany.com</li>
+              <li><i class="fas fa-clock"></i> Mon-Fri: 9am - 6pm</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2023 TheLookOutCompany. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
